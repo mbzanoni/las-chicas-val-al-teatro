@@ -1016,37 +1016,37 @@ function renderRanking() {
       </div>
       <div class="resumen-card">
         <div class="resumen-icon">🏆</div>
-        <div class="resumen-label">la más amada</div>
+        <div class="resumen-label">la que más nos gustó</div>
         <div class="resumen-val">${mejorObra ? mejorObra.titulo : '—'}</div>
         <div class="resumen-sub">${mejorObra ? '★ ' + mejorObra.avg.toFixed(1) + ' promedio' : ''}</div>
       </div>
       <div class="resumen-card">
         <div class="resumen-icon">💀</div>
-        <div class="resumen-label">la más odiada</div>
+        <div class="resumen-label">la que menos nos gustó</div>
         <div class="resumen-val">${peorObra && peorObra !== mejorObra ? peorObra.titulo : '—'}</div>
         <div class="resumen-sub">${peorObra && peorObra !== mejorObra ? '★ ' + peorObra.avg.toFixed(1) + ' promedio' : ''}</div>
       </div>
       <div class="resumen-card">
         <div class="resumen-icon">🎟️</div>
-        <div class="resumen-label">la que más fue</div>
+        <div class="resumen-label">la más salidora</div>
         <div class="resumen-val">${masVecesU ? masVecesU.nombre : '—'}</div>
         <div class="resumen-sub">${masVecesId ? masVecesId[1] + ' obras puntuadas' : ''}</div>
       </div>
       <div class="resumen-card">
         <div class="resumen-icon">🤝</div>
-        <div class="resumen-label">mayor acuerdo</div>
+        <div class="resumen-label">en esta hay consenso</div>
         <div class="resumen-val" style="font-size:13px">${maxAcuerdo ? maxAcuerdo.titulo : '—'}</div>
         <div class="resumen-sub">${maxAcuerdo ? 'Δ ' + maxAcuerdo.delta.toFixed(1) : ''}</div>
       </div>
       <div class="resumen-card">
         <div class="resumen-icon">😌</div>
-        <div class="resumen-label">vara baja</div>
+        <div class="resumen-label">la de la vara baja</div>
         <div class="resumen-val">${varaBaja ? varaBaja.u.nombre : '—'}</div>
         <div class="resumen-sub">${varaBaja ? 'promedio ★ ' + varaBaja.avg.toFixed(1) : ''}</div>
       </div>
       <div class="resumen-card">
         <div class="resumen-icon">🧐</div>
-        <div class="resumen-label">vara alta</div>
+        <div class="resumen-label">epa que estamos exigentes</div>
         <div class="resumen-val">${varaAlta ? varaAlta.u.nombre : '—'}</div>
         <div class="resumen-sub">${varaAlta ? 'promedio ★ ' + varaAlta.avg.toFixed(1) : ''}</div>
       </div>
